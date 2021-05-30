@@ -1,0 +1,27 @@
+.transactionHistory {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tableHeading {
+  background-color: rgb(0, 188, 213);
+}
+
+.headingCell {
+  font-size: 24px;
+  font-weight: 100;
+}
+
+.headingCell,
+.rowCell {
+  border: 1px solid rgb(211, 208, 208);
+  padding: 10px;
+}
+
+.tableRow:nth-child(even) {
+  background-color: #cee1ec;
+}
+
+.rowCell {
+  font-weight: 100;
+}

@@ -1,0 +1,32 @@
+.item {
+  margin: 25px 0;
+  padding: 20px 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 300px;
+  border: rgb(180, 157, 157);
+  border-radius: 2px;
+  box-shadow: 2px 5px 10px rgb(180, 157, 157);
+}
+
+.item * {
+  margin-right: 15px;
+}
+
+.status {
+  height: 15px;
+  width: 15px;
+  background-color: rgb(255, 0, 0);
+  border-radius: 50%;
+}
+
+.online {
+  composes: status;
+  background-color: rgb(43, 244, 54);
+}
+
+.name {
+  font-size: 26px;
+  font-weight: 100;
+}

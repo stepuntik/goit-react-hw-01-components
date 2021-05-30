@@ -1,0 +1,32 @@
+.statistics {
+  background-color: rgb(228, 225, 196);
+  max-width: 400px;
+  text-align: center;
+  font-weight: 100;
+  margin: 20px 0;
+}
+
+.item {
+  width: 33.333%;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 22px;
+  padding: 15px 0;
+  border-bottom: 1px solid black;
+  font-weight: inherit;
+}
+
+.statList {
+  display: flex;
+}
+
+.item:not(:last-child) {
+  border-right: 1px solid black;
+}
+
+.percentage {
+  font-weight: 400;
+}
